@@ -29,6 +29,8 @@ motor1.begin(DEF_PIN_DRIVERH_INA, DEF_PIN_DRIVERH_INB, DEF_PIN_DRIVERH_PWM, DEF_
 // set direction: DIRECTION_A or DIRECTION_B
 motor1.setDirection(DIRECTION_A); // DIRECTION_A/DIRECTION_B
 
+motor1.runtime(); // for loop
+
 // motor1.setSpeed(speedTo, durationChange, speedFrom);
 // speedTo = Final speed
 // durationChange = Duration(milliseconds) of reaching the final speed. Default zero, that is instant change.
